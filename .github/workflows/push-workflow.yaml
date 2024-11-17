@@ -1,0 +1,7 @@
+name: Push workflow
+on: push
+jobs:
+  release-it-workflow:
+    uses: rcwbr/release-it-gh-workflow/.github/workflows/release-it-workflow.yaml@0.1.0
+    with:
+      release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:46-manage-inline-version-files-d034ce460f3636e636af65fde451edfec590b6ee
