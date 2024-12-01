@@ -2,11 +2,12 @@
   "git": {
     "commit": true,
     "tag": true,
-    "push": false,
+    "push": true,
+    "pushArgs": ["--tags"],
     "tagName": "${version}"
   },
   "github": {
-    "release": false
+    "release": true
   },
   "plugins": {
     "@release-it/bumper": {
