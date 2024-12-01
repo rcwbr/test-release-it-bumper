@@ -7,3 +7,4 @@ jobs:
       contents: write
     with:
       release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:46-manage-inline-version-files-05a81da5642c2bf0c92e7d0174c1c7c996a04f7a
+      release-it-extra-args: '-VV'
