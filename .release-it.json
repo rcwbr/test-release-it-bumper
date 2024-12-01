@@ -2,6 +2,7 @@
   "git": {
     "commit": true,
     "tag": true,
+    "push": false,
     "tagName": "${version}"
   },
   "github": {
@@ -11,7 +12,8 @@
     "@release-it/bumper": {
       "out": {
         "file": "VERSION",
-        "type": "text/plain"
+        "type": "text/plain",
+        "consumeWholeFile": true
       }
     },
     "@release-it/conventional-changelog": {
