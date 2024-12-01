@@ -11,8 +11,7 @@
     "@release-it/bumper": {
       "out": {
         "file": "VERSION",
-        "type": "text/plain",
-        "consumeWholeFile": true
+        "type": "text/plain"
       }
     },
     "@release-it/conventional-changelog": {
