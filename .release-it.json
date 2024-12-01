@@ -8,6 +8,13 @@
     "release": true
   },
   "plugins": {
+    "@release-it/bumper": {
+      "out": {
+        "file": "VERSION",
+        "type": "text/plain",
+        "consumeWholeFile": true
+      }
+    },
     "@release-it/conventional-changelog": {
       "preset": {
         "name": "conventionalcommits",
@@ -53,13 +60,6 @@
             "hidden": true
           }
         ]
-      }
-    },
-    "@release-it/bumper": {
-      "out": {
-        "file": "VERSION",
-        "type": "text/plain",
-        "consumeWholeFile": true
       }
     }
   }
