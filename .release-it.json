@@ -20,7 +20,8 @@
         },
         {
           "file": "README.md",
-          "type": "text/plain"
+          "type": "text/plain",
+          "prefix": ":"
         }
       ]
     },

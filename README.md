@@ -7,4 +7,4 @@ Example of using the version in the README:
 reference:test-release-it-bumper:0.3.1
 ```
 
-Another version ref: 0.3.1
+Another version ref:0.3.1
