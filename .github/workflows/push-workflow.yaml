@@ -6,4 +6,5 @@ jobs:
     permissions:
       contents: write
     with:
-      release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:46-manage-inline-version-files-946be7757800492422ddb9fa50eadf6fb07802f3
+      release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:0.4.0
+      release-it-config: ./.release-it.json
