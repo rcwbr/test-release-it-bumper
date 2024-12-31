@@ -9,10 +9,12 @@
   },
   "plugins": {
     "@release-it/bumper": {
-      "out": {
+      "in": {
         "file": "VERSION",
-        "type": "text/plain",
-        "consumeWholeFile": true
+        "type": "text/plain"
+      },
+      "out": {
+        "file": ["VERSION", "README.md"]
       }
     },
     "@release-it/conventional-changelog": {
