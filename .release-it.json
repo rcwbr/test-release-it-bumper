@@ -13,10 +13,16 @@
         "file": "VERSION",
         "type": "text/plain"
       },
-      "out": {
-        "file": ["VERSION", "README.md"],
-        "type": "text/plain"
-      }
+      "out": [
+        {
+          "file": "VERSION",
+          "type": "text/plain"
+        },
+        {
+          "file": "README.md",
+          "type": "text/plain"
+        }
+      ]
     },
     "@release-it/conventional-changelog": {
       "preset": {
