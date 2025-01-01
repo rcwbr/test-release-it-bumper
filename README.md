@@ -8,3 +8,5 @@ reference:test-release-it-bumper:0.4.0
 ```
 
 Another version ref:0.4.0
+
+Note in the usage
