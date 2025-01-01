@@ -7,3 +7,4 @@ jobs:
       contents: write
     with:
       release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:0.5.0
+      release-it-config: "<( echo 'test' )"
