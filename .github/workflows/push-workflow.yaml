@@ -2,9 +2,8 @@ name: Push workflow
 on: push
 jobs:
   release-it-workflow:
-    uses: rcwbr/release-it-gh-workflow/.github/workflows/release-it-workflow.yaml@0.2.1
+    uses: rcwbr/release-it-gh-workflow/.github/workflows/release-it-workflow.yaml@15-prevent-repeated-triggering-of-workflow-by-its-own-commits
     permissions:
       contents: write
     with:
-      release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:0.5.0
-      release-it-config: "<( echo 'test' )"
+      release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:52-specify-release-commit-message-pattern-in-configuration-485ec351cb07c71d39480d2fb03f529d77789067
