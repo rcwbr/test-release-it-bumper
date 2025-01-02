@@ -7,3 +7,4 @@ jobs:
       contents: write
     with:
       release-it-image: ghcr.io/rcwbr/release-it-docker-file-bumper:52-specify-release-commit-message-pattern-in-configuration-485ec351cb07c71d39480d2fb03f529d77789067
+# Test
