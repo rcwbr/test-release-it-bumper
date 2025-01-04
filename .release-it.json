@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "@release-it/bumper": {
+       "out": [
+        {
+          "file": "VERSION",
+          "type": "text/plain"
+        },
+        {
+          "file": "README.md",
+          "type": "text/plain"
+        },
+        {
+          "file": "SPECIAL_FILE",
+          "type": "text/plain"
+        }
+      ]
+    }
+  }
+}
